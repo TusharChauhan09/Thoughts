@@ -12,7 +12,7 @@ export default function DoubleBorder({
   return (
     <div
       className={cn(
-        "rounded-[calc(var(--radius-md)-3px)] border border-foreground/10 p-[0.5px]",
+        "rounded-[calc(var(--radius-md)-3px)] border border-foreground/10 px-[0.5px] py-[0.7px]",
         className,
       )}
     >

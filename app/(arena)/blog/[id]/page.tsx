@@ -8,11 +8,10 @@ export default async function Blog({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  return <div>
+  return <div className="flex flex-col justify-center gap-3">
       <BackButton />
-      <ReadTime time={10} className="flex justify-center my-3" />
-    <Banner/>
-    {id}
-    
+      <ReadTime time={10} className="flex justify-center" />
+      <Banner/>
+      
     </div>;
 }
