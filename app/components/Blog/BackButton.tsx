@@ -12,7 +12,7 @@ export default function BackButton() {
       <button className="hover:opacity-75 transition-opacity duration-300 cursor-pointer" onClick={() => router.back()}>
         <div className="relative">
           <div>
-            <IconArrowBackUp stroke={0.80} className="size-12 ml-1.25"/>
+            <IconArrowBackUp stroke={0.80} className="size-12 ml-2.25"/>
           </div>
           <div className="absolute bottom-0 left-0 text-lg">
             <span>Back</span>

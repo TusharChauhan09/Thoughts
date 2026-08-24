@@ -7,7 +7,7 @@ type ReadTimeProps = {
 
 export default function ReadTime({ time, className }: ReadTimeProps) {
   return (
-    <div className={`${className}`}>
+    <div className={`${className} flex justify-center `}>
       <DoubleBorder>
         <span>{time} mins</span>
       </DoubleBorder>
